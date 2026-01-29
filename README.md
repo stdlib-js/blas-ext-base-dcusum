@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusum@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dcusum/tags). For example,
+
+```javascript
 import dcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusum@v0.3.0-esm/index.mjs';
 ```
 
@@ -170,7 +175,7 @@ dcusum.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusum@v0.3.0-esm/index.mjs';
+import dcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusum@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
