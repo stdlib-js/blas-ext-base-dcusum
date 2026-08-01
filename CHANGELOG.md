@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-19)
+## Unreleased (2026-08-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`c890b1a`](https://github.com/stdlib-js/stdlib/commit/c890b1ad0c88bdb2ec57a7e423f835a15947bfd5) - **bench:** refactor to use string interpolation in `blas/ext/base/dcusum` [(#10532)](https://github.com/stdlib-js/stdlib/pull/10532) _(by Kamal Singh Rautela)_
 -   [`e825c5f`](https://github.com/stdlib-js/stdlib/commit/e825c5f034fc6bdfe21abd22ab6f6f82eb31153c) - **bench(dcusum):** use dynamic memory allocation [(#10209)](https://github.com/stdlib-js/stdlib/pull/10209) _(by me0-0, Philipp Burckhardt)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Kamal Singh Rautela
+-   Karan Anand
 -   Philipp Burckhardt
 -   me0-0
 
